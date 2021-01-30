@@ -33,4 +33,4 @@ $ bech32-decode hckrspk1q93xjmnpwfujzgfpxyqqs8a2ax | hexdump -C
 At the beginning of this project, the library was copied from [filippo.io/age/internal/bech32](https://pkg.go.dev/filippo.io/age@v1.0.0-beta6/internal/bech32) as of version v1.0.0-beta6, in order to make it available outside of the `age` project.
 For more information on `age`, see https://age-encryption.org/
 
-It seems that this code was an improved and much cleaned up version of [github.com/btcsuite/btcutil/bech32](https://pkg.go.dev/github.com/btcsuite/btcutil/bech32), that had internally maintained at Google until it was open sourced as part of `age`.
+It seems that this code was an improved and much cleaned up version of [github.com/btcsuite/btcutil/bech32](https://pkg.go.dev/github.com/btcsuite/btcutil/bech32), that had been internally maintained at Google until it was open sourced as part of `age`.
